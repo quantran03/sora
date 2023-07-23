@@ -1,0 +1,31 @@
+{
+  "name": "sora",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "test",
+    "start": "node prod/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quantran03/sora.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quantran03/sora/issues"
+  },
+  "homepage": "https://github.com/quantran03/sora#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.4",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "eslint": "^8.45.0",
+    "typescript": "^5.1.6"
+  }
+}
